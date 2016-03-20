@@ -10,17 +10,17 @@
   "default_locale": "en",
   "content_scripts": [{
     "matches": [ "https://www.chatwork.com/*", "https://kcw.kddi.ne.jp/*" ],
-    "js": [ "bower_components/jquery/dist/jquery.min.js", "dist/js/dekashita.js" ]
+    "js": [ "bower_components/jquery/dist/jquery.min.js", "scripts/dekashita.js" ]
   }],
   "background": {
     "scripts": [
-      "dist/js/chromereload.js",
-      "dist/js/background.js"
+      "scripts/chromereload.js",
+      "scripts/background.js"
     ],
     "persistent": false
   },
   "permissions": [],
   "web_accessible_resources": [
-    "dist/img/*.png"
+    "images/*.png"
   ]
 }

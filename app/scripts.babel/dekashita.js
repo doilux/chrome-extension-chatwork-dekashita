@@ -1,7 +1,7 @@
 'use strict';
 
 var icon = document.createElement('img');
-icon.src = chrome.extension.getURL('dist/img/maruta.png');
+icon.src = chrome.extension.getURL('images/maruta.png');
 
 var iconWrapper = document.createElement('li');
 iconWrapper.id = '_dekashitaButton';
@@ -16,5 +16,5 @@ document.getElementById('_chatSendTool').appendChild(iconWrapper);
 
 $('#_dekashitaButton').click(function (e) {
     var val = $('#_chatText').val();
-    $('#_chatText').val(val + 'でかした！！');
+    $('#_chatText').val(val + 'でかした！！(y)');
 });
