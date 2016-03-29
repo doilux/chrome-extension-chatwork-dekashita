@@ -21,6 +21,6 @@
   },
   "permissions": [],
   "web_accessible_resources": [
-    "images/*.png"
+    "images/*.*"
   ]
 }

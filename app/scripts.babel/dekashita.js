@@ -1,7 +1,7 @@
 'use strict';
 
 var icon = document.createElement('img');
-icon.src = chrome.extension.getURL('images/maruta.png');
+icon.src = chrome.extension.getURL('images/maruta.svg');
 
 var iconWrapper = document.createElement('li');
 iconWrapper.id = '_dekashitaButton';
