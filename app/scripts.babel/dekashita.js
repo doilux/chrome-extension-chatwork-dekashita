@@ -14,7 +14,7 @@ iconWrapper.appendChild(icon);
 
 document.getElementById('_chatSendTool').appendChild(iconWrapper);
 
-$('#_dekashitaButton').click(function (e) {
-    var val = $('#_chatText').val();
-    $('#_chatText').val(val + 'でかした！！(y)');
+document.querySelector('#_dekashitaButton').addEventListener('click', function(){
+  document.querySelector('#_chatText').value += 'でかした！！(y)'
 });
+
