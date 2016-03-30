@@ -10,7 +10,7 @@
   "default_locale": "en",
   "content_scripts": [{
     "matches": [ "https://www.chatwork.com/*", "https://kcw.kddi.ne.jp/*" ],
-    "js": [ "bower_components/jquery/dist/jquery.min.js", "scripts/dekashita.js" ]
+    "js": ["scripts/dekashita.js" ]
   }],
   "background": {
     "scripts": [
@@ -21,6 +21,6 @@
   },
   "permissions": [],
   "web_accessible_resources": [
-    "images/*.png"
+    "images/*.*"
   ]
 }
